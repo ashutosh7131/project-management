@@ -31,7 +31,7 @@ public class ProjectController {
 		proRepo.save(project);
 
 		model.addAttribute("project", aProject);
-		return "redirect:/new";
+		return "redirect:/projects/new";
 	}
 
 }
